@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     /* align-items: center; */
     /* justify-content: center; */
+    /* padding: 0 150px; */
   }
   
   .header{
@@ -36,45 +37,87 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 0 200px;
 }
 
-.logo{
+.hero-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .logo{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+} */
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
 }
 
-.hero-main{
+.img-ph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3b3b8;
+}
+
+/* .hero-main{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-}
+} */
 
-.header-link, .hero-sec{
+/* .header-link, .hero-sec{
     font-size: 18px;
     color: #e5e7eb;
-}
+} */
 
-button, .four{
+button, .four1{
     background-color: #3882f6;
 }
 
-.info{
+/* .button-class{
+    background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+} */
+
+/* .info{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+} */
+
+.two{
+    padding: 0 200px;
 }
 
 .three{
     background-color: #e5e7eb;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
-.quote{
+.four{
+    padding: 0 200px;
+}
+
+/* .quote{
     font-size: 36px;
     font-style:italic; 
-    /* light italic */
     color: #1f2937;
-}
+} */
 
 .five{
     margin-top: auto;
@@ -85,6 +128,20 @@ button, .four{
     justify-content: center;
     align-items: center;
     height: 60px;
+    padding: 0 200px;
+
 }
+
+
+.container{
+    display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.lkm{
+    max-width: 200px;
+    text-align: center;
+  }
 
 
