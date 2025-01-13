@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     /* color: white; */
 }
@@ -14,24 +14,25 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
     /* padding: 0 150px; */
-  }
-  
-  .header{
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-  }
+    padding: 12px 0;
+}
 
-  ul{
+ul {
     list-style-type: none;
     display: flex;
     margin: 0px;
     padding: 0px;
     gap: 15px;
-  } 
+}
 
 
 
-.one{
+.one {
     font-family: 'Roboto', sans-serif;
     color: white;
     background-color: #1f2937;
@@ -40,9 +41,10 @@ body {
     padding: 0 200px;
 }
 
-.hero-sec{
+.hero-sec {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 
@@ -52,16 +54,18 @@ body {
     font-weight: 900;
 } */
 
-.header-bottom{
+.header-bottom {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0;
 }
 
-.img-ph{
+.img-ph {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #b3b3b8;
+    width: 800px;
 }
 
 /* .hero-main{
@@ -75,8 +79,17 @@ body {
     color: #e5e7eb;
 } */
 
-button, .four1{
+button,
+.four1 {
     background-color: #3882f6;
+}
+
+.button-class1 {
+    padding: 4px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    border-color: #3882f6;
 }
 
 /* .button-class{
@@ -95,11 +108,11 @@ button, .four1{
     font-weight: 900;
 } */
 
-.two{
-    padding: 0 200px;
+.two {
+    padding: 40px 200px 100px 200px;
 }
 
-.three{
+.three {
     background-color: #e5e7eb;
     padding: 0 200px;
     display: flex;
@@ -109,8 +122,23 @@ button, .four1{
     height: 400px;
 }
 
-.four{
+.four {
     padding: 0 200px;
+    height: 200px;
+    /* display: flex; */
+    background-color: #3882f6;
+    /* width: 0 200px; */
+}
+
+.four1 {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+button {
+    color: white;
 }
 
 /* .quote{
@@ -119,7 +147,7 @@ button, .four1{
     color: #1f2937;
 } */
 
-.five{
+.five {
     margin-top: auto;
     background-color: #1f2937;
     font-size: 18px;
@@ -133,15 +161,20 @@ button, .four1{
 }
 
 
-.container{
+.container {
     display: flex;
-  justify-content: center;
-  gap: 50px;
+    justify-content: center;
+    gap: 50px;
 }
 
-.lkm{
+.lkm {
     max-width: 200px;
     text-align: center;
-  }
+}
 
-
+.lkm img {
+    border: 5px solid #3882f6; /* Add a 5px solid border in the specified color */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    width: 150px; /* Optional: Set a consistent image width */
+    height: 150px; /* Maintain aspect ratio */
+}
